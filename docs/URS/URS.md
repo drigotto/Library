@@ -7,7 +7,7 @@ Rodrigo Parodi
 
 | Version    | Date        | Authors      | Notes        |
 | ----------- | ----------- | ----------- | ----------- |
-| 1.0 | 18/06/2024 | Rodrigo Parodi|  inserita img|
+| 1.0 | 27/06/2024 | Rodrigo Parodi| creazione struttura|
 
 # Table of Contents
 
@@ -41,7 +41,7 @@ Rodrigo Parodi
 
 | Acronym				| Definition | 
 | ------------------------------------- | ----------- | 
-| XXXX                                  | XXXX |
+| ISBN                                 | INterntiona lstandar book Number |
 
 <a name="sp1.3"></a>
 
@@ -51,10 +51,13 @@ Rodrigo Parodi
 
 ## 2. System Description
 <a name="sp2.15"></a>
-
+>>Il sistema dovrà permettere di memorizzare info 
 ### 2.1 Context and Motivation
 
 <a name="sp2.2"></a>
+Progettazione software per gestone privata libri(titolp, autore, anno e ISBN), 
+deve inoltre recuperare info su un libro e add e remove libri da libreria)
+
 
 ### 2.2 Project Obectives 
 
@@ -71,9 +74,8 @@ Rodrigo Parodi
 
 <a name="sp3.1"></a>
 ### 3.1 Stakeholders
-1. Cliente : Il cliente è un utente che ha uno o più conti aperti con la banca, esegue operazioni sui cc
-2. Banca: Detiene i conti correnti e permette di fare varie operazioni
-3. 
+1. Utente generico: ha come obiettivo memorizzare tutti i libri che vuole in un unico posto.
+2.  
 
 <a name="sp3.2"></a>
 ### 3.2 Functional Requirements 
