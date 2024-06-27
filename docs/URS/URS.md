@@ -79,34 +79,56 @@ deve inoltre recuperare info su un libro e add e remove libri da libreria)
 
 <a name="sp3.2"></a>
 ### 3.2 Functional Requirements 
-![Use Case Diagram](IMG/UserCaseATM.png)
 
 <a name="sp3.2"></a>
-#### 3.2.1 Prelievo
-<b>NOME</b> Prelievo
+![Use Case Diagram](IMG/usecase.png)
 
-<b>Precondizione</b> Avere un bancomat
+#### 3.2.1 Aggiungi Libro
+<b>NOME</b> Aggiungi Libro
+
+<b>Precondizione</b> 
 
 <b>Priorità</b> Mandatory
 
-<b>Stakeholder principale </b> Cliente
+<b>Stakeholder principale </b> Utente
 
 <b>Scenario Principale</b>
 
-	1. Cliente inserisce bancomat
+	1. Sistema chiede di inserire un nuovo titolo
+ 	2. Utente isnerisce titolo
+  	3. Sistema chiede di inserire autore  
+   	4. Utente inserise autore
+    	5. Sistema chiede di inserire  anno di pubblicazione
+     	6. Utente inserisce un anno
+      	7. Sistema chiede di inserire ISBN
+        8. Utnete inserisce ISBN
+	9. Il sistema valida il nuovo libro corettamente
+       10. Il sistema inserisce libro in libreria
+       11. Sistema saluta 
 
- 	2. Cliente inserisce pin corretto
+<b>Scenario Alternativo</b>
 
-  	3. Cliente seleziona importo da prelevare
+   2A. Utente inserisce titolo non valido
+   1. Sistema notifica titolo non vlaido
+   2. Sistema torna a punto 1 di scenario principaleù
+      
+<b>Scenario Alternativo</b>
+
+  9A. Esiste già un libro con quell'ISBN
+   1. Sistema notifica l'utente
+   2. Sistema mostrea il libro con stesso ISBN
+   3. Sistema chiede se vuole sostituire il vecchio libro
+   4. utente dice si
+   5. Sistema cancella libr
+   6. Sistem inserisce nuovo libro
+
+<b>Scenario Alternativo</b>
+
+9A.4A Utente dice di no
+   1.Sistema chiede di modificare ISBN
+   2.Utente dice si
+   3.Sistema torna a putno 8 di scenario principale
    
-   	4. ATM eroga banconote, tessera e ricevuta
-    
-    	5. Cliente ritira banconote, tessera e ricevuta
-
-     	6. ATM pulisce schermata
-
-<b>Scenario Alternativvo</b>
-
 <b>Post-condizoni</b>
 
 
