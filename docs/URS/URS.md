@@ -95,14 +95,10 @@ deve inoltre recuperare info su un libro e add e remove libri da libreria)
 <b>Scenario Principale</b>
 
 	1. Sistema chiede di inserire un nuovo titolo
-
  	2. Utente isnerisce titolo
-
   	3. Sistema chiede di inserire autore  
    	4. Utente inserise autore
-    
     	5. Sistema chiede di inserire  anno di pubblicazione
-
      	6. Utente inserisce un anno
       	7. Sistema chiede di inserire ISBN
         8. Utnete inserisce ISBN
@@ -110,14 +106,15 @@ deve inoltre recuperare info su un libro e add e remove libri da libreria)
        10. Il sistema inserisce libro in libreria
        11. Sistema saluta 
 
-<b>Scenario Alternativvo</b>
+<b>Scenario Alternativo</b>
+
    2A. Utente inserisce titolo non valido
    1. Sistema notifica titolo non vlaido
    2. Sistema torna a punto 1 di scenario principaleù
       
 <b>Scenario Alternativo</b>
-  9A. Esiste già un libro con quell'ISBN
 
+  9A. Esiste già un libro con quell'ISBN
    1. Sistema notifica l'utente
    2. Sistema mostrea il libro con stesso ISBN
    3. Sistema chiede se vuole sostituire il vecchio libro
@@ -125,7 +122,8 @@ deve inoltre recuperare info su un libro e add e remove libri da libreria)
    5. Sistema cancella libr
    6. Sistem inserisce nuovo libro
 
-<b>Scenario Alternativvo</b>
+<b>Scenario Alternativo</b>
+
 9A.4A Utente dice di no
    1.Sistema chiede di modificare ISBN
    2.Utente dice si
