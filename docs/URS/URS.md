@@ -79,7 +79,7 @@ deve inoltre recuperare info su un libro e add e remove libri da libreria)
 
 <a name="sp3.2"></a>
 ### 3.2 Functional Requirements 
-![Use Case Diagram](IMG/usecase.png)
+[Use Case Diagram](IMG/usecase.png)
 
 <a name="sp3.2"></a>
 #### 3.2.1 Prelievo
